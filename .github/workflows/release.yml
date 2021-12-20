@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     name: Build Signed Artifacts
-    runs-on: macOS-latest
+    runs-on: macOS-11
     steps:
     - uses: maxim-lobanov/setup-xcode@v1
       with:
@@ -62,7 +62,7 @@ jobs:
 
   build-cisafe:
     name: Build CI-Safe Signed Artifacts
-    runs-on: macOS-latest
+    runs-on: macOS-11
     steps:
     - uses: maxim-lobanov/setup-xcode@v1
       with:
